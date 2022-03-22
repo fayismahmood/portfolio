@@ -14,7 +14,7 @@ export async function getStaticProps(q) {
   console.log(q);
 
   // Call an external API endpoint to get posts
-  const res = await fetch(`${server}/portf.json`);
+  const res = await fetch(`https://raw.githubusercontent.com/fayismahmood/portfolio/master/public/portf.json`);
   const _res = await res.json();
   let { types, data } = _res;
   // By returning { props: { posts } }, the Blog component
