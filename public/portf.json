@@ -1,0 +1,109 @@
+{
+    "types":["OpenSource","Web Developement"],
+    "data":[
+      {
+       "head": "aliksire",
+       "pic": null,
+       "disc": "An islamic acadamia powered by elixire",
+       "tech": "react,framer-motion,express",
+       "type": "Web Developement",
+       "link": "https:\/\/aliksire.glitch.me\/"
+      },
+      {
+       "head": "exergue",
+       "pic": "exergue.svg",
+       "disc": "Exergue philosophy colloquium 2022 is an academic event which form as a critique towards new philosophical trends",
+       "tech": "preact,framer-motion,deta,sass",
+       "type": "Web Developement",
+       "link": "https:\/\/exergue.deta.dev\/"
+      },
+      {
+       "head": "skssfcamp",
+       "pic": null,
+       "disc": "Skssf social media campign portal",
+       "tech": "react,vercel,sass",
+       "type": "Web Developement",
+       "link": "https:\/\/skssfcamp.vercel.app\/"
+      },
+      {
+       "head": "igniteposter",
+       "pic": null,
+       "disc": "ignite social media campign portal",
+       "tech": "vercel,sass",
+       "type": "Web Developement",
+       "link": "https:\/\/igniteposter.vercel.app\/"
+      },
+      {
+       "head": "Kalalayam",
+       "pic": "cover.jpeg",
+       "disc": "Manhaj Art fest registration portal",
+       "tech": "vue,vercek,google-app-script",
+       "type": "Web Developement",
+       "link": "https:\/\/kalalayam.vercel.app\/"
+      },
+      {
+       "head": "inspiro Quiz competition",
+       "pic": "Inspiro.png",
+       "disc": "Inspiro , Spoken english program run by Ignite, Perumugham",
+       "tech": "astro,react,vercel,anim",
+       "type": "Web Developement",
+       "link": "https:\/\/inspiro-english-quizz-contest.vercel.app\/"
+      },
+      {
+       "head": "basiFinal",
+       "pic": null,
+       "disc": "result publisher and certificate generator for Online reading compterion",
+       "tech": "svelte",
+       "type": "Web Developement",
+       "link": null
+      },
+      {
+       "head": "Campigner",
+       "pic": null,
+       "disc": "An open source project , which is helpfull to create a online campigner",
+       "tech": "preact,sass",
+       "type": "OpenSource",
+       "link": "https:\/\/github.com\/fayismahmood\/campaigner"
+      },
+      {
+       "head": "elixireRead",
+       "pic": null,
+       "disc": "An open source tool to read ms word docx files using javascript based on mammoth js",
+       "tech": "mammoth,nodejs",
+       "type": "OpenSource",
+       "link": "https:\/\/www.npmjs.com\/package\/elixireread"
+      },
+      {
+       "head": "tblApp",
+       "pic": null,
+       "disc": "An open source cms like tool based on react and sheet",
+       "tech": "react,mui",
+       "type": "OpenSource",
+       "link": "https:\/\/github.com\/fayismahmood\/tablApp"
+      },
+      {
+       "head": "sassEs",
+       "pic": null,
+       "disc": "An open source plugin for esbuild to activate sass",
+       "tech": "sass,esbuild",
+       "type": "OpenSource",
+       "link": "https:\/\/www.npmjs.com\/package\/sasses"
+      },
+      {
+       "head": "SpashJS",
+       "pic": "spash.svg",
+       "disc": "An open source js library to create single page app",
+       "tech": "javascritp",
+       "type": "OpenSource",
+       "link": "https:\/\/fayismahmood.github.io\/spash.github.io\/"
+      },
+      {
+       "head": "Uime",
+       "pic": null,
+       "disc": "aterial design without any framework like react, angular and vue ##Install via cdn https:\/\/cdn.jsdelivr.net\/gh\/fayismahmood\/UiME@master\/uime.js",
+       "tech": "materialjs",
+       "type": "OpenSource",
+       "link": "https:\/\/github.com\/fayismahmood\/UiME"
+      }
+     ]
+}
