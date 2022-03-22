@@ -9,7 +9,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { server } from "../configs";
-
+import Img from 'next/image'
 export async function getStaticProps(q) {
   console.log(q);
 
@@ -34,7 +34,7 @@ export function Home({ types, data }) {
       <div className="hero flex min-h-screen bg-gradient-to-br from-ecru-100 via-white to-vividburgundy-100">
         <div className="m-auto flex justify-items-end md:flex-row flex-col p-10 max-w-3xl">
           <div className="overflow-hidden md:w-72 ">
-            <img className="rounded-full " src="/m.jpeg" alt="" />
+            <Img className="rounded-full " src="/m.jpeg" alt="" />
           </div>
           <div className="flex">
             <div className="m-auto">
@@ -63,7 +63,7 @@ export function Home({ types, data }) {
           <div className="e  md:translate-x-40 md:-translate-y-20">
             {types ? (
               types.map((eType) => (
-                <div className="relative">
+                <div key={eType+"key"} className="relative">
                   <h1
                     style={{ width: "100px" }}
                     className="absolute -rotate-90 md:left-10  left-16 bg-white text-charcoal-200 text-2xl bottom-24 whitespace-nowrap -translate-x-full"
@@ -75,6 +75,7 @@ export function Home({ types, data }) {
                       .filter((_e) => _e.type == eType)
                       .map((e) => (
                         <div
+                        key={e.head+"asdf"}
                           onClick={() => {
                             window.open(e.link);
                           }}
@@ -83,7 +84,7 @@ export function Home({ types, data }) {
                           <div className="Cont bg-white rounded-2xl shadow-lg shadow-ecru-100 cursor-pointer transition hover:-translate-y-3 hover:shadow-ecru-100 hover:shadow-2xl border-2 border-ecru-100 p-5 w-96">
                             <div className="h-72 overflow-hidden rounded-2xl">
                               {e.pic ? (
-                                <img src={`/portpic/${e.pic}`} alt="" />
+                                <Img src={`/portpic/${e.pic}`} alt="" />
                               ) : (
                                 <div className="h-full w-full bg-gradient-to-t from-charcoal to-ecru-100"></div>
                               )}
